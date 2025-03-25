@@ -179,7 +179,7 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 	font-size: 45px;
 	padding: 10px 15px;
 	background: rgba(128, 180, 33, 0.80);
-	color: #FFFFFF;
+	color: #ffffff;
 	text-shadow: none;
 	font-weight: bold;
 	display: inline-block;
@@ -250,7 +250,7 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 }
 .header .navbar-nav > li > a {
 	padding: 25px 18px;
-	text-transform: uppercase;
+	text-transform: none;
 }
 .page-section {
 	width: 100%;
@@ -313,10 +313,10 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 	font-size: 1.6em;
 	font-weight: normal;
 	font-style: normal;
-	color: #fff;
+	color: #050505;
 }
 .banner-content header {
-color: #fff;
+color: #0e0d0d;
 padding-top: 20%;
 }
 .banner-content .btn {
@@ -328,14 +328,14 @@ text-align:center;
 }
 .banner-content .social-icons a{
 text-align: center;
-border: 1px solid #fff;
+border: 1px solid #050505;
 border-radius: 90px !important;
 height: 52px;
 line-height: 60px;
 padding: 0px;
 width: 52px;
 display: inline-block;
-color:#fff;
+color:#0f0e0e;
 margin:0 6px;
 }
 .banner-content .social-icons a i{
@@ -343,15 +343,15 @@ font-size:26px;
 }
 .banner-content .social-icons a:hover {
 background:#5887FF;
-color:#fff;
+color:#ffffff;
 border: 1px solid #5887FF;
 }
 .banner-content .hireMe:hover{
 background:#5887FF;
-color:#fff;
+color:#ffffff;
 }
 .banner-content .hireMe{
-background: #fff;
+background: #b4f4f8;
 clear: right;
 margin: 0 auto;
 display: block;
@@ -369,7 +369,7 @@ font-size: 4.5em;
 font-weight: 700;
 letter-spacing: .1em;
 line-height: 1em;
-text-transform: uppercase;
+text-transform: none;
 }
 .banner-content header p{
  text-align:center;
@@ -378,7 +378,7 @@ margin-bottom: 5px;
 padding: 0 8px;
 letter-spacing: .1em;
 line-height: 3em;
-text-transform: uppercase;
+text-transform: none;
 }
 .centered {
 margin-left: auto;
