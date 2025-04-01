@@ -15,12 +15,12 @@ body {
 	background: #fff;
 }
 ::selection {
-	color: #fff;
+	color: #ffffff;
 	background: #5887FF;
 }
 
 ::-moz-selection {
- color: #fff;
+ color: #ffffff;
  background: #5887FF;
 }
 p {
@@ -29,7 +29,7 @@ p {
 	font-size: 15px;
 }
 .white {
-	background: #fff;
+	background: #ffffff;
 }
 .pDark p {
 	color: #6D6D6D;
@@ -45,7 +45,7 @@ p {
 	display: inline-block;
 	vertical-align: middle;
 	zoom: 1;
-	color: #fff;
+	color: #ffffff;
 	padding: 10px 25px;
 	border: 2px solid #fff;
 	border-radius: 0px;
@@ -54,7 +54,7 @@ p {
 	background: rgba(255,255,255,0.15);
 }
 .button-outline:hover {
-	color: #fff;
+	color: #ffffff;
 	background: rgba(255,255,255,0.35);
 }
 a {
@@ -105,7 +105,7 @@ a:hover {
 }
 .topHome .fa-2x {
 	font-size: 20px;
-	color: #fff;
+	color: #ffffff;
 	margin: 4px;
 }
 h2 {
@@ -139,16 +139,16 @@ h2 {
 	background: #5887FF;
 }
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-	color: #fff;
+	color: #ffffff;
 }
 .navbar-inverse .navbar-toggle:hover .icon-bar {
-	background: #fff;
+	background: #ffffff;
 }
 .navbar-inverse .navbar-nav > li > a {
-	color: #fff;
+	color: #000000;    /*navigation bar color*/
 }
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-	color: #FFFFFF;
+	color: #000000;
 }
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
 	color: #5887FF;
@@ -157,7 +157,7 @@ h2 {
 .navbar-toggle {
 }
 .addBg {
-background: #000 !important;
+background: rgba(157, 213, 232, 0.5) !important;
 -webkit-box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 -moz-box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
@@ -214,7 +214,7 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 	/*color:#5887FF;*/;
 }
 .navbar-brand b {
-	color: #fff;
+	color: #ffffff;
 	font-family: 'Pacifico', cursive;
 	font-weight: 400;
 }
@@ -228,7 +228,7 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 }
 .header .navbar {
 	margin: 0;
-	background: #fff;
+	background: #ffffff;
 	border: 0;
 }
  
@@ -240,13 +240,13 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 	border-radius: 0px;
 }
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-	color: #fff;
+	color: #000000;              /*navigation bar color active*/
 	background: none;
 	border-bottom:2px solid #5887FF;
 	border-radius: 0px;
 }
 .navbar-nav > li:hover > a {
-	color: #fff;
+	color: #ffffff;
 }
 .header .navbar-nav > li > a {
 	padding: 25px 18px;
