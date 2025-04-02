@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Comparison of Sensor Performance</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/proj-styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
+    <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/da-slider.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Font Awesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body style="display: flex; flex-direction: column; height: 100vh; margin: 0;">
+    <!-- Title Section -->
+    <header style="display: flex; justify-content: center; align-items: center; flex: 0 0 15%; width: 100%; margin: 0;">
+        <h1 style="font-size: 3vw; text-align: center; margin: 0;">
+            Exploring UAS imaging modalities for precision agriculture: predicting table beet root yield and estimating disease severity using multispectral, hyperspectral, and LiDAR sensing
+        </h1>
+    </header>
+
+    <!-- Main Content Section -->
+    <main style="display: flex; flex: 1 0 85%; width: 100%; margin: 0;">
+        <!-- Image Section -->
+        <div style="flex: 0 0 50%; display: flex; justify-content: center; align-items: center;">
+            <img src="projects/pics/sensor_comp.jpg" alt="Sensor Comparison" style="height: auto; width: 90%; max-height: 100%;">
+        </div>
+
+        <!-- Buttons and Text Section -->
+        <div style="flex: 1; display: flex; flex-direction: column; padding: 20px;">
+            <!-- Buttons Section -->
+            <div style="flex: 0 0 20%; display: flex; justify-content: center; gap: 10px; align-items: center;">
+                <a href="https://osf.io/preprints/osf/sp2u9_v1" target="_blank" style="text-decoration: none;">
+                    <button style="padding: 10px 20px; background-color: #5887FF; color: white; border: none; border-radius: 5px; cursor: pointer;">Paper</button>
+                </a>
+                <a href="https://osf.io/preprints/osf/sp2u9_v1" target="_blank" style="text-decoration: none;">
+                    <button style="padding: 10px 20px; background-color: #5887FF; color: white; border: none; border-radius: 5px; cursor: pointer;">Presentation</button>
+                </a>
+                <a href="https://osf.io/preprints/osf/sp2u9_v1" target="_blank" style="text-decoration: none;">
+                    <button style="padding: 10px 20px; background-color: #5887FF; color: white; border: none; border-radius: 5px; cursor: pointer;">Poster</button>
+                </a>
+            </div>
+
+            <!-- Text Section -->
+            <div style="flex: 1; overflow-y: auto;">
+                <h3 style="text-align: justify; margin: 0; font-size: 1.2vw; line-height: 1.6;">
+                    In this project, we explored how drones equipped with different types of imaging systems can help farmers make better decisions. We used three imaging systems—multispectral, hyperspectral, and LiDAR—to monitor table beet crops grown in New York. Our goal was to see how well these tools could predict two key things: the final beet root yield and how badly the crops were affected by a common disease called Cercospora Leaf Spot (CLS).
+
+                    We collected aerial data during the growing seasons of 2021 and 2022 using drones. Then, we built models to forecast crop yield and estimate disease severity using machine learning. Interestingly, we found that multispectral images—which are cheaper and easier to use—were just as good, and sometimes better, than the more complex hyperspectral images for both yield and disease prediction.
+
+                    We also compared 3D data from LiDAR with similar data created from regular images, and found that the simpler method (called Structure-from-Motion) worked better for predicting yield.
+
+                    Overall, this research shows that affordable drone technology can reliably support precision agriculture, helping farmers monitor crop health and improve yield with less effort and lower costs.
+                </h3>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

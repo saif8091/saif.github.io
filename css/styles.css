@@ -1,5 +1,5 @@
 /*
-Theme Name: Free-Portfolio-HTML5-Responsive-Website-Sam
+Theme Name: Free-projects-HTML5-Responsive-Website-Sam
 Author URI: http://webthemez.com/ 
 */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
@@ -712,17 +712,17 @@ margin: 10px 0 !important;
 .isotopeWrapper article {
 	margin-bottom: 30px;
 }
-#portfolio {
+#projects {
 	background: #000;
 }
-#portfolio img {
+#projects img {
 	width: 100%;
 }
-#portfolio article p {
+#projects article p {
 	margin-bottom: 1.45em;
 	/*set next row on the baseline*/;
 }
-#portfolio p{
+#projects p{
 color:#000;
 }
 nav#filter {
@@ -742,10 +742,10 @@ nav#filter a {
 a.current {
 	color: #5887FF !important; 
 }
-.portfolio-items article img {
+.projects-items article img {
 	width: 100%;
 }
-.portfolio-item {
+.projects-item {
 	display: block;
 	position: relative;
 	-webkit-transition: all 0.2s ease-in-out;
@@ -753,14 +753,14 @@ a.current {
 	-o-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
-.portfolio-item img {
+.projects-item img {
 	-webkit-transition: all 300ms linear;
 	-moz-transition: all 300ms linear;
 	-o-transition: all 300ms linear;
 	-ms-transition: all 300ms linear;
 	transition: all 300ms linear;
 }
-.portfolio-item .portfolio-desc {
+.projects-item .projects-desc {
 	display: block;
 	opacity: 0;
 	position: absolute;
@@ -772,42 +772,42 @@ a.current {
 .fancybox-overlay {
 	background: rgba(0, 0, 0, 0.64);
 }
-.portfolio-item:hover .portfolio-desc {
+.projects-item:hover .projects-desc {
 	padding-top: 20%;
 	height: 100%;
 	transition: all 200ms ease-in-out 0s;
 	opacity: 1;
 	background: rgba(61, 61, 61, 0.67);
 }
-.portfolio-item .portfolio-desc a {
-	color: #fff;
+.projects-item .projects-desc a {
+	color: #000000;
 	text-align: center;
 	display: block;
 }
-.portfolio-item .portfolio-desc a:hover {
+.projects-item .projects-desc a:hover {
 	/*text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7);*/
 	text-decoration: none;
 }
-.portfolio-item .portfolio-desc .folio-info {
+.projects-item .projects-desc .proj-info {
 	top: -20px;
 	padding: 30px;
 	height: 0;
 	opacity: 0;
 	position: relative;
 }
-.portfolio-item:hover .folio-info {
+.projects-item:hover .proj-info {
 	height: 100%;
 	opacity: 1;
 	transition: all 500ms ease-in-out 0s;
 	top: 5px;
 }
-.portfolio-item .portfolio-desc .folio-info h5 {
+.projects-item .projects-desc .proj-info h5 {
 	text-transform: uppercase;
 	text-align: center;
 	font-weight: bold;
 	font-size: 1.4em;
 }
-.portfolio-item .portfolio-desc .folio-info p {
+.projects-item .projects-desc .proj-info p {
 	color: #ffffff;
 	font-size: 12px;
 }
@@ -925,7 +925,7 @@ footer {
 	cursor: pointer;
 	margin: 0px 5px;
 }
-#portfolio{
+#projects{
 background: #DBDBDB;	
 	}
 #contactUs{
@@ -969,13 +969,13 @@ color: #000;
 .header .navbar-nav > li > a {
 	padding: 25px 12px;
 }
-.portfolio-item:hover .folio-info {
+.projects-item:hover .proj-info {
 	top: 0px;
 }
-.portfolio-item .portfolio-desc .folio-info {
+.projects-item .projects-desc .proj-info {
 	padding: 0px;
 }
-.portfolio-item .portfolio-desc .folio-info h5 {
+.projects-item .projects-desc .proj-info h5 {
 	font-size: 1em;
 }
 .navbar-inverse .navbar-nav > li > a {
@@ -1078,7 +1078,7 @@ margin-top: 30%;
 	font-size: 1em;
 	margin: 0 0 20px;
 }
-.portfolio-item .portfolio-desc .folio-info h5 {
+.projects-item .projects-desc .proj-info h5 {
 	font-size: 11px;
 }
 .skilltitle {
@@ -1126,10 +1126,10 @@ display: inline-block;
 	padding-left: 29%;
 	padding-right: 2%;
 }
-.portfolio-item:hover .folio-info {
+.projects-item:hover .proj-info {
 	top: 0px;
 }
-.portfolio-item .portfolio-desc .folio-info h5 {
+.projects-item .projects-desc .proj-info h5 {
 	text-transform: uppercase;
 	text-align: center;
 	font-weight: normal;

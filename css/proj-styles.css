@@ -1,0 +1,26 @@
+main {
+    display: flex;
+    flex-direction: row; /* Arrange the image and text side by side */
+    height: 100vh; /* Full viewport height */
+    align-items: center; /* Vertically center the content */
+    gap: 20px; /* Space between the image and text */
+}
+
+main img {
+    height: 70%; /* Image height is 70% of the viewport */
+    width: auto; /* Maintain aspect ratio */
+}
+
+.text-container {
+    flex: 1; /* Take up the remaining space */
+    display: flex;
+    align-items: center; /* Vertically center the text */
+    justify-content: center; /* Horizontally center the text */
+}
+
+.text-container h3 {
+    text-align: justify; /* Justify the text alignment */
+    margin: 0; /* Remove default margin */
+    line-height: 1.6; /* Adjust line height for readability */
+    margin-right: 20px
+}
