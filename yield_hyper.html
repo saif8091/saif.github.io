@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Yield estimation from hyperspectral</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/proj-styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
+    <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/da-slider.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Font Awesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body style="display: flex; flex-direction: column; height: 100vh; margin: 0;">
+    <!-- Title Section -->
+    <header style="display: flex; justify-content: center; align-items: center; flex: 0 0 15%; width: 100%; margin: 0;">
+        <h1 style="font-size: 3vw; text-align: center; margin: 0;">
+            Identification of specific spectral bands for estimating table beet root yield using hyperspectral imaging
+        </h1>
+    </header>
+
+    <!-- Main Content Section -->
+    <main style="display: flex; flex: 1 0 85%; width: 100%; margin: 0;">
+        <!-- Image Section -->
+        <div style="flex: 0 0 50%; display: flex; justify-content: center; align-items: center;">
+            <img src="projects/pics/hyperspec_yield.jpg" alt="Sensor Comparison" style="height: auto; width: 90%; max-height: 100%;">
+        </div>
+
+        <!-- Buttons and Text Section -->
+        <div style="flex: 1; display: flex; flex-direction: column; padding: 20px;">
+            <!-- Buttons Section -->
+            <div style="flex: 0 0 20%; display: flex; justify-content: center; gap: 10px; align-items: center;">
+                <a href="https://www.mdpi.com/2072-4292/15/3/794" target="_blank" style="text-decoration: none;">
+                    <button style="padding: 10px 20px; background-color: #5887FF; color: white; border: none; border-radius: 5px; cursor: pointer;">Paper</button>
+                </a>
+                <a href="slides/yield_hyper.pdf" target="_blank" style="text-decoration: none;">
+                    <button style="padding: 10px 20px; background-color: #5887FF; color: white; border: none; border-radius: 5px; cursor: pointer;">Slides</button>
+                </a>
+            </div>
+
+            <!-- Text Section -->
+            <div style="flex: 1; overflow-y: auto;">
+                <h3 style="text-align: justify; margin: 0; font-size: 1.2vw; line-height: 1.6;">
+                    New York state is among the largest producers of table beets in the United States, which, by extension, has placed a new focus on precision crop management. For example, an operational unmanned aerial system (UAS)-based yield forecasting tool could prove helpful for the efficient management and harvest scheduling of crops for factory feedstock. The objective of this study was to evaluate the feasibility of predicting the weight of table beet roots from spectral and textural features, obtained from hyperspectral images collected via UAS. We identified specific wavelengths with significant predictive ability, e.g., we down-select >200 wavelengths to those spectral indices sensitive to root yield (weight per unit length). Multivariate linear regression was used, and the accuracy and precision were evaluated at different growth stages throughout the season to evaluate temporal plasticity. Models at each growth stage exhibited similar results (albeit with different wavelength indices), with the LOOCV (leave-one-out cross-validation) R2 ranging from 0.85 to 0.90 and RMSE of 10.81–12.93% for the best-performing models in each growth stage. Among visible and NIR spectral regions, the 760–920 nm-wavelength region contained the most wavelength indices highly correlated with table beet root yield. We recommend future studies to further test our proposed wavelength indices on data collected from different geographic locations and seasons to validate our results.
+                    </h3>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

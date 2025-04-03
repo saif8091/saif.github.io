@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Disease severity estimation</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/proj-styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
+    <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/da-slider.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Font Awesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body style="display: flex; flex-direction: column; height: 100vh; margin: 0;">
+    <!-- Title Section -->
+    <header style="display: flex; justify-content: center; align-items: center; flex: 0 0 15%; width: 100%; margin: 0;">
+        <h1 style="font-size: 3vw; text-align: center; margin: 0;">
+            Disease severity estimation from Unmanned Aerial Systems (UAS) imagery
+        </h1>
+    </header>
+
+    <!-- Main Content Section -->
+    <main style="display: flex; flex: 1 0 85%; width: 100%; margin: 0;">
+        <!-- Image Section -->
+        <div style="flex: 0 0 50%; display: flex; justify-content: center; align-items: center;">
+            <img src="projects/pics/disease.jpg" alt="Sensor Comparison" style="height: auto; width: 90%; max-height: 100%;">
+        </div>
+
+        <!-- Buttons and Text Section -->
+        <div style="flex: 1; display: flex; flex-direction: column; padding: 20px;">
+            <!-- Buttons Section -->
+            <div style="flex: 0 0 20%; display: flex; justify-content: center; gap: 10px; align-items: center;">
+                <a href="https://osf.io/preprints/osf/sp2u9_v1" target="_blank" style="text-decoration: none;">
+                    <button style="padding: 10px 20px; background-color: #5887FF; color: white; border: none; border-radius: 5px; cursor: pointer;">Paper</button>
+                </a>
+                <a href="slides/disease_slide.pdf" target="_blank" style="text-decoration: none;">
+                    <button style="padding: 10px 20px; background-color: #5887FF; color: white; border: none; border-radius: 5px; cursor: pointer;">Slides</button>
+                </a>
+                <a href="posters/disease_multispec_poster.pdf" target="_blank" style="text-decoration: none;">
+                    <button style="padding: 10px 20px; background-color: #5887FF; color: white; border: none; border-radius: 5px; cursor: pointer;">Poster</button>
+                </a>
+                <a href="https://data.mendeley.com/datasets/v9b7rwrwx9/1" target="_blank" style="text-decoration: none;">
+                    <button style="padding: 10px 20px; background-color: #5887FF; color: white; border: none; border-radius: 5px; cursor: pointer;">Data</button>
+                </a>
+                <a href="https://github.com/saif8091/cls_multispec_uas" target="_blank" style="text-decoration: none;">
+                    <button style="padding: 10px 20px; background-color: #5887FF; color: white; border: none; border-radius: 5px; cursor: pointer;">Code</button>
+                </a>
+            </div>
+
+            <!-- Text Section -->
+            <div style="flex: 1; overflow-y: auto;">
+                <h3 style="text-align: justify; margin: 0; font-size: 1.2vw; line-height: 1.6;">
+                        <em>Cercospora</em> leaf spot (CLS), caused by the fungal pathogen <em>Cercospora beticola</em> Sacc., is a damaging foliar disease that impacts table beet (<em>Beta vulgaris</em>) production. In this study, we explored the use of unmanned aerial systems (UAS) equipped with multispectral imaging sensors to non-invasively monitor disease severity across multiple growing seasons (2021–2023) at Cornell AgriTech in Geneva, NY.
+
+                        Multispectral imagery was collected using two different sensors (five-band and four-band), capturing reflectance in key wavelengths known to be sensitive to plant physiological stress. Disease severity assessments were conducted in the field, and corresponding spectral and texture-based features were extracted from UAS imagery to train machine learning models.
+
+                        Vegetation indices and texture metrics were used to characterize both spectral reflectance and spatial variability associated with CLS symptoms. Feature selection techniques were applied to identify the most informative predictors. The best-performing model, a random forest regressor, achieved an R² of 0.82 and RMSE of 9.31% on test data. Additionally, disease progression over time was modeled using area-under-disease-progression-stairs (AUDPS), with high correlations (R² = 0.84–0.94) between predicted and observed values across all seasons.
+
+                        These findings demonstrate that UAS-based multispectral imaging, combined with data-driven modeling, provides a practical and scalable tool for quantifying foliar disease severity in table beets. This approach offers growers a viable pathway toward more timely and targeted disease management strategies.
+
+                    </h3>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SPAD modeling</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/proj-styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
+    <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/da-slider.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Font Awesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body style="display: flex; flex-direction: column; height: 100vh; margin: 0;">
+    <!-- Title Section -->
+    <header style="display: flex; justify-content: center; align-items: center; flex: 0 0 15%; width: 100%; margin: 0;">
+        <h1 style="font-size: 3vw; text-align: center; margin: 0;">
+            Modelling of Performance Parameters of Single Photon Avalanche
+            Detector Incorporating Dead Space Effects and History Dependent
+            Ionization Coefficient        </h1>
+    </header>
+
+    <!-- Main Content Section -->
+    <main style="display: flex; flex: 1 0 85%; width: 100%; margin: 0;">
+        <!-- Image Section -->
+        <div style="flex: 0 0 50%; display: flex; justify-content: center; align-items: center;">
+            <img src="projects/pics/spad.jpg" alt="Sensor Comparison" style="height: auto; width: 90%; max-height: 100%;">
+        </div>
+
+        <!-- Buttons and Text Section -->
+        <div style="flex: 1; display: flex; flex-direction: column; padding: 20px;">
+            <!-- Buttons Section -->
+            <div style="flex: 0 0 20%; display: flex; justify-content: center; gap: 10px; align-items: center;">
+                <a href="papers/Modelling of Performance Parameters of Single Photon Avalanche.pdf" target="_blank" style="text-decoration: none;">
+                    <button style="padding: 10px 20px; background-color: #5887FF; color: white; border: none; border-radius: 5px; cursor: pointer;">Paper</button>
+                </a>
+            </div>
+
+            <!-- Text Section -->
+            <div style="flex: 1; overflow-y: auto;">
+                <h3 style="text-align: justify; margin: 0; font-size: 1.2vw; line-height: 1.6;">
+                    The modelling and simulation of the performance parameters of single-photon avalanche diode
+                    (SPAD) is carried out with the help of MATLAB. The model is applied on a sample SAM SPAD
+                    device which consists of a multiplication region made of InP and an absorber region of InGaAs. A
+                    generalized theory for breakdown probability is implemented which takes into account the
+                    generation of photocarriers at random locations among each layer. The study reveals that by
+                    increasing the multiplication region width, the number of dark carriers due to field-assisted
+                    generation mechanisms is reduced which are counteracted by an increase in the number of GR dark
+                    carriers. Thus, the photon detection efficiency (PDE) and Dark count rate (DCR) is of utmost
+                    importance before the fabrication of a device. In this work we have simulated a SPAD device
+                    incorporating dead space effects and history dependent ionization coefficient to generate the electric
+                    field profile, dead space profile, ionization coefficient profile, breakdown profile and avalanche
+                    probabilities. Finally, we have extracted the PDE vs overbias voltage and PDE vs DCR curves of
+                    the simulated device under different multiplication region widths to demonstrate the effect of
+                    multiplication region width on the performance parameters of a SPAD.            </div>
+        </div>
+    </main>
+</body>
+</html>

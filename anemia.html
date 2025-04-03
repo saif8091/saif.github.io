@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Anemia detection</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/proj-styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
+    <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/da-slider.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Font Awesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body style="display: flex; flex-direction: column; height: 100vh; margin: 0;">
+    <!-- Title Section -->
+    <header style="display: flex; justify-content: center; align-items: center; flex: 0 0 15%; width: 100%; margin: 0;">
+        <h1 style="font-size: 3vw; text-align: center; margin: 0;">
+            Detection of anemia from image of the anterior conjunctiva of the eye by image processing and thresholding
+        </h1>
+    </header>
+
+    <!-- Main Content Section -->
+    <main style="display: flex; flex: 1 0 85%; width: 100%; margin: 0;">
+        <!-- Image Section -->
+        <div style="flex: 0 0 50%; display: flex; justify-content: center; align-items: center;">
+            <img src="projects/pics/anemia.jpg" alt="Sensor Comparison" style="height: auto; width: 90%; max-height: 100%;">
+        </div>
+
+        <!-- Buttons and Text Section -->
+        <div style="flex: 1; display: flex; flex-direction: column; padding: 20px;">
+            <!-- Buttons Section -->
+            <div style="flex: 0 0 20%; display: flex; justify-content: center; gap: 10px; align-items: center;">
+                <a href="https://ieeexplore.ieee.org/abstract/document/8289053" target="_blank" style="text-decoration: none;">
+                    <button style="padding: 10px 20px; background-color: #5887FF; color: white; border: none; border-radius: 5px; cursor: pointer;">Paper</button>
+                </a>
+            </div>
+
+            <!-- Text Section -->
+            <div style="flex: 1; overflow-y: auto;">
+                <h3 style="text-align: justify; margin: 0; font-size: 1.2vw; line-height: 1.6;">
+                    World Health Organization (WHO) identifies anemia, a health hazard condition marked by the deficiency of red blood cells or hemoglobin in the blood stream, as maligning a quarter of the total world population. An automated, quick and reliable detection of anemia is hence imperative. Preliminary detection of anemia is usually undertaken visually by the physician by examining the color of the anterior conjunctiva of the eye and confirmed with an invasive blood test. In this study, we designed a mechanism for the automated detection of anemia through non-invasive visual method. Our process involves the detection of anemia by analyzing the anterior conjunctival pallor of the eye. It operates by quantifying the conjunctival color from digital photographs of the eye taken with a smartphone camera of appropriate resolution under adequate lighting conditions with the help of an android application that we have devised. These images are then processed to obtain the red and green component spectra of the conjunctiva color and compared against a threshold to determine whether the patient is anemic or not. We employed our method on 19 test subjects with known hemoglobin levels. The results obtained from our process agreed with the patient's blood report in 15 out of the 19 cases which translates to an accuracy of 78.9 percent. Our study was aimed towards the automation of healthcare facilities in underdeveloped parts of the world lacking proper healthcare facilities like hospitals and healthcare centers. Thus we developed a computerized, noninvasive, simple, cost effective, easy to use and portable primary screening test for anemia which can provide a viable alternative to invasive methods of anemia detection and have major humanitarian impact in the underdeveloped areas of the world.                    </h3>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
