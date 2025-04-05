@@ -777,7 +777,7 @@ a.current {
 	height: 100%;
 	transition: all 200ms ease-in-out 0s;
 	opacity: 1;
-	background: rgba(61, 61, 61, 0.67);
+	background: rgba(108, 182, 246, 0.4);
 }
 .projects-item .projects-desc a {
 	color: #000000;
@@ -926,17 +926,17 @@ footer {
 	margin: 0px 5px;
 }
 #projects{
-background: #DBDBDB;	
+background: #c7e1ff;	
 	}
 #contactUs{
-	 background: #3394D5;
+	 background: #ffffff;
 }
 #contactUs p{
 color:#000;
 }
 #contactUs .btn{
-background: #fff;
-color: #5887FF;
+background: #ffffff;
+color: #6abaff;
 }
 #contactUs .btn:hover{
 color: #000;
