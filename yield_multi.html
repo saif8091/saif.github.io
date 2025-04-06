@@ -34,19 +34,19 @@
         <div style="flex: 1; display: flex; flex-direction: column; padding: 20px;">
             <!-- Buttons Section -->
             <div style="flex: 0 0 20%; display: flex; justify-content: center; gap: 10px; align-items: center;">
-                <a href="https://osf.io/preprints/osf/sp2u9_v1" target="_blank" style="text-decoration: none;">
+                <!--<a href="https://osf.io/preprints/osf/sp2u9_v1" target="_blank" style="text-decoration: none;">
                     <button style="padding: 10px 20px; background-color: #5887FF; color: white; border: none; border-radius: 5px; cursor: pointer;">Paper</button>
-                </a>
+                </a>-->
                 <a href="slides/multiseason_yield_AGU_2024.pdf" target="_blank" style="text-decoration: none;">
                     <button style="padding: 10px 20px; background-color: #5887FF; color: white; border: none; border-radius: 5px; cursor: pointer;">Slides</button>
                 </a>
                 <a href="posters/yield_multi_poster.pdf" target="_blank" style="text-decoration: none;">
                     <button style="padding: 10px 20px; background-color: #5887FF; color: white; border: none; border-radius: 5px; cursor: pointer;">Poster</button>
                 </a>
-                <a href="https://data.mendeley.com/datasets/v9b7rwrwx9/1" target="_blank" style="text-decoration: none;">
+                <!--<a href="https://data.mendeley.com/datasets/v9b7rwrwx9/1" target="_blank" style="text-decoration: none;">
                     <button style="padding: 10px 20px; background-color: #5887FF; color: white; border: none; border-radius: 5px; cursor: pointer;">Data</button>
-                </a>
-                <a href="https://github.com/saif8091/cls_multispec_uas" target="_blank" style="text-decoration: none;">
+                </a>-->
+                <a href="https://github.com/saif8091/yield-multi" target="_blank" style="text-decoration: none;">
                     <button style="padding: 10px 20px; background-color: #5887FF; color: white; border: none; border-radius: 5px; cursor: pointer;">Code</button>
                 </a>
             </div>
@@ -54,13 +54,11 @@
             <!-- Text Section -->
             <div style="flex: 1; overflow-y: auto;">
                 <h3 style="text-align: justify; margin: 0; font-size: 1.2vw; line-height: 1.6;">
-                        <em>Cercospora</em> leaf spot (CLS), caused by the fungal pathogen <em>Cercospora beticola</em> Sacc., is a damaging foliar disease that impacts table beet (<em>Beta vulgaris</em>) production. In this study, we explored the use of unmanned aerial systems (UAS) equipped with multispectral imaging sensors to non-invasively monitor disease severity across multiple growing seasons (2021–2023) at Cornell AgriTech in Geneva, NY.
+                    Unmanned Aerial Systems (UAS) have demonstrated substantial potential for enhancing agricultural monitoring, yet their application to root crops remains underexplored. Key challenges include developing models that are robust across growth stages and seasons, and evaluating the comparative utility of diverse imaging modalities. This study addresses these gaps by introducing a unified Gaussian Process Regression (GPR) model for predicting end-of-season table beet (Beta vulgaris) root yield using UAS-derived spectral and structural features, along with meteorological data. The model is designed to be resilient to variations in both flight scheduling and harvest timing.
 
-                        Multispectral imagery was collected using two different sensors (five-band and four-band), capturing reflectance in key wavelengths known to be sensitive to plant physiological stress. Disease severity assessments were conducted in the field, and corresponding spectral and texture-based features were extracted from UAS imagery to train machine learning models.
-
-                        Vegetation indices and texture metrics were used to characterize both spectral reflectance and spatial variability associated with CLS symptoms. Feature selection techniques were applied to identify the most informative predictors. The best-performing model, a random forest regressor, achieved an R² of 0.82 and RMSE of 9.31% on test data. Additionally, disease progression over time was modeled using area-under-disease-progression-stairs (AUDPS), with high correlations (R² = 0.84–0.94) between predicted and observed values across all seasons.
-
-                        These findings demonstrate that UAS-based multispectral imaging, combined with data-driven modeling, provides a practical and scalable tool for quantifying foliar disease severity in table beets. This approach offers growers a viable pathway toward more timely and targeted disease management strategies.
+                    Field trials were conducted at Cornell AgriTech, Geneva, NY, during the 2021 and 2022 growing seasons. Data acquisition included five-band multispectral imagery (475, 560, 668, 717, and 840 nm), hyperspectral imagery spanning 400–1000 nm, and light detection and ranging (LiDAR), captured at multiple phenological stages. The unified model yielded an R²<sub>test</sub> of 0.81 and MAPE<sub>test</sub> of 15.7% using only multispectral data, while the fusion of hyperspectral and LiDAR data achieved an R²<sub>test</sub> of 0.79 and MAPE<sub>test</sub> of 17.4%. Model interpretation via SHAP (SHapley Additive exPlanations) analysis identified canopy volume as a primary contributor to yield prediction performance.
+                    
+                    This work demonstrates that scalable, sensor-agnostic machine learning models can deliver accurate, generalizable yield estimates for subterranean crops. All datasets and code used in this study will be made publicly available. The accompanying presentation slides correspond to our AGU24 talk, which focused specifically on the performance of the multispectral-based modeling approach.
 
                     </h3>
             </div>
