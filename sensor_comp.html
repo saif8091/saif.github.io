@@ -47,15 +47,14 @@
 
             <!-- Text Section -->
             <div style="flex: 1; overflow-y: auto;">
-                <h3 style="text-align: justify; margin: 0; font-size: 1.2vw; line-height: 1.6;">
-                    In this project, we explored how drones equipped with different types of imaging systems can help farmers make better decisions. We used three imaging systems—multispectral, hyperspectral, and LiDAR—to monitor table beet crops grown in New York. Our goal was to see how well these tools could predict two key things: the final beet root yield and assess the disease severity of the crops that were affected by a common disease called Cercospora Leaf Spot (CLS).
+                <h3 style="text-align: justify; margin: 0; font-size: 1.2vw; line-height: 1.6;">Unmanned Aerial Systems (UAS) have become essential tools in precision agriculture, offering flexible sensor integration, high-resolution data, and efficient field coverage. However, comparative evaluations of UAS imaging systems—particularly for root crop yield prediction and disease monitoring—are limited. This study assesses the performance of multispectral (MSI), hyperspectral (HSI), and LiDAR sensing for estimating table beet (Beta vulgaris) root yield and Cercospora Leaf Spot (CLS) severity.
 
-                    We collected aerial data during the growing seasons of 2021 and 2022 using drones. Then, we built models to forecast crop yield and estimate disease severity using machine learning. Interestingly, we found that multispectral images—which are cheaper and easier to use—were just as good, and sometimes better, than the more complex hyperspectral images for both yield and disease prediction.
-
-                    We also compared 3D data from LiDAR with similar data created from regular images, and found that the simpler method (called Structure-from-Motion) worked better for predicting yield.
-
-                    Overall, this research shows that affordable drone technology can reliably support precision agriculture, helping farmers monitor crop health and improve yield with less effort and lower costs.
-                    The slides and paper will be available after SPIE defense + Commercial Sensing 2024 conference.
+                    Field trials were conducted at Cornell AgriTech (Geneva, NY) during the 2021 and 2022 growing seasons. Data were collected using a five-band MSI sensor (MicaSense RedEdge-M), a VNIR HSI sensor (Headwall Nano, 272 bands), and a Velodyne VLP-16 LiDAR unit. Models were developed using both individual and fused sensor data. The MSI-only model achieved the best root yield prediction (R²<sub>test</sub> = 0.82, MAPE<sub>test</sub> = 15.6%), while HSI+LiDAR achieved R²<sub>test</sub> = 0.79. CLS severity was modeled using vegetation indices and texture metrics, with MSI outperforming HSI (R²<sub>test</sub> = 0.90 vs. 0.87; RMSE<sub>test</sub> = 7.18% vs. 10.1%).
+                    
+                    Additionally, structural metrics derived via Structure-from-Motion (SfM) proved more informative than LiDAR for yield estimation. These findings highlight the practicality and effectiveness of MSI for both tasks, supporting its use in cost-efficient, scalable precision agriculture workflows.
+                    
+                    This work provides a comparative framework for sensor selection in UAS-based monitoring and contributes to advancing sustainable, data-driven crop management.
+                    The slides and paper will be available after SPIE defense + Commercial Sensing 2025 conference.
                 </h3>
             </div>
         </div>
